@@ -1,0 +1,17 @@
+[package]
+name = "Simple-DeFi-Yield-Calculator"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x368ebfe801b6990d1e884973035f5dc5b55c1173a4e0345caf3c5d5d141867e6"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
